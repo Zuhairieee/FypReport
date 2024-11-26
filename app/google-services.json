@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "481368531527",
+    "project_id": "shareride2-3f7bf",
+    "storage_bucket": "shareride2-3f7bf.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:481368531527:android:e9b417449119391ddf8762",
+        "android_client_info": {
+          "package_name": "com.example.shareride2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcpwjxDyTGMAoBR6STAGizFZhG2qrhww0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

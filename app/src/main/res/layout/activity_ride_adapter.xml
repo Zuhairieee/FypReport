@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_marginBottom="8dp">
+
+    <!-- Leaving From TextView -->
+
+    <!-- Going To TextView -->
+    <TextView
+        android:id="@+id/leavingFromTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Leaving From"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/goingToTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Going To"
+        android:textSize="16sp"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Date TextView -->
+    <TextView
+        android:id="@+id/dateTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date"
+        android:textSize="16sp"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Time TextView (Added this TextView) -->
+    <TextView
+        android:id="@+id/timeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Time"
+        android:textSize="16sp"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Passengers TextView -->
+    <TextView
+        android:id="@+id/passengersTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Passengers"
+        android:textSize="16sp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Confirm Button -->
+    <Button
+        android:id="@+id/confirmButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="#6678B4"
+        android:text="Confirm Book" />
+</LinearLayout>

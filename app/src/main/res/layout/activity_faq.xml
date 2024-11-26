@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FAQActivity">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#B3BCE7"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- FAQ Header -->
+            <TextView
+                android:id="@+id/faqHeader"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="Frequently Asked Questions"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <!-- FAQ Question 1 -->
+            <TextView
+                android:id="@+id/faq_q1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="1. How do I offer a ride on ShareRide?"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/faq_a1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="To offer a ride, simply log in to your ShareRide account, fill in the details such as your departure and arrival locations, the number of passengers you can take, and the date and time of your trip. Once you've filled in the details, click 'Offer Ride' to make it available to other users."
+                android:textSize="16sp" />
+
+            <!-- FAQ Question 2 -->
+            <TextView
+                android:id="@+id/faq_q2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="2. How do I search for a ride on ShareRide?"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/faq_a2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="To search for a ride, enter your destination in the search bar. The app will show you a list of rides that match your criteria."
+                android:textSize="16sp" />
+
+            <!-- FAQ Question 3 -->
+            <TextView
+                android:id="@+id/faq_q3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="3. Can I cancel my ride after offering it?"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/faq_a3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="Yes, you can cancel your offered ride at any time before it’s booked by a passenger. To do this, go to your 'Your Rides' section and select the ride you want to cancel."
+                android:textSize="16sp" />
+
+            <!-- FAQ Question 4 -->
+            <TextView
+                android:id="@+id/faq_q4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="4. What happens if the ride I want is fully booked?"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/faq_a4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="If a ride is fully booked, it will no longer appear in the search results. You will only be able to book rides with available seats."
+                android:textSize="16sp" />
+
+            <!-- FAQ Question 5 -->
+            <TextView
+                android:id="@+id/faq_q5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="5. How do I book a ride with a driver?"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/faq_a5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="Once you find a ride that fits your travel plans, select it from the search results and click 'Book Ride.' If there are seats available, you can confirm your booking right away."
+                android:textSize="16sp" />
+
+            <!-- FAQ Question 6 -->
+            <TextView
+                android:id="@+id/faq_q6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="6. Can I modify my ride details after offering it?"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/faq_a6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="No, once your ride is offered, you cannot change the details such as departure or arrival points, date, or time. If you need to change the details, you will need to cancel your current ride and offer a new one."
+                android:textSize="16sp" />
+
+            <!-- FAQ Question 7 -->
+            <TextView
+                android:id="@+id/faq_q7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="7. How do I contact the driver or passenger after booking?"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/faq_a7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="After booking a ride, you can contact the driver or passenger via WhatsApp. You’ll find their contact details in the booking confirmation."
+                android:textSize="16sp" />
+
+            <!-- FAQ Question 8 -->
+            <TextView
+                android:id="@+id/faq_q8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="8. What should I do if I’m running late for my ride?"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/faq_a8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="If you're running late, make sure to communicate with your driver or passengers. It's important to update them on your estimated arrival time to avoid inconvenience."
+                android:textSize="16sp" />
+
+            <!-- FAQ Question 9 -->
+            <TextView
+                android:id="@+id/faq_q9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="9. Can I rate or review a ride after completing the journey?"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/faq_a9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="Yes, after completing your ride, you can leave a review and rate the experience. This helps other users make informed decisions when booking or offering rides."
+                android:textSize="16sp" />
+
+            <!-- FAQ Question 10 -->
+            <TextView
+                android:id="@+id/faq_q10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="10. Is there a fee for using ShareRide?"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/faq_a10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="ShareRide won't charge you for each successful booking."
+                android:textSize="16sp" />
+
+            <ImageButton
+                android:id="@+id/backButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginStart="16dp"
+                android:src="@android:drawable/ic_menu_revert"
+                android:contentDescription="Back"
+                android:background="?android:attr/selectableItemBackgroundBorderless"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"/>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
